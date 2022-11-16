@@ -1,0 +1,34 @@
+<div style="text-align: center;">
+  <h1>PERAK STATE VOLLEYBALL ASSOCIATION</h1>
+ </div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto"  >
+        <li class="nav-item" >
+          <li class="nav-item" >
+            <a class="nav-link" href="#"[routerLink]="'/home'" routerLinkActive="router-link-active">Home
+            <span class="visually-hidden">(current)</span>
+            </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['/about']" routerLinkActive="router-link-active" >About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/createStudent']" routerLinkActive="router-link-active">Add New Player</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/student']" routerLinkActive="router-link-active">List Player</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/faq']" routerLinkActive="router-link-active">FAQ</a>
+            </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
